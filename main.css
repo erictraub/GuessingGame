@@ -1,0 +1,96 @@
+body {
+	background-color: #ABD0BA;
+}
+
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	color: #574523;
+	font-family: Comic Sans Ms, Sans Serif;
+	font-weight: bolder;
+	padding-top: 50px;
+	margin-bottom: -10px;
+}
+
+p {
+	font-family: fantasy;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+}
+
+#trys {
+	font-size: 20px;
+	margin-top: -13px;
+}
+
+
+div {
+	text-align: center;
+	background-color: #79B08F;
+	padding-bottom: 40px;
+}
+
+#banana {
+	margin-top: -205px;
+	margin-right: 90px;
+	height: 200px;
+	width: 200px;
+	transform: rotate(-40deg);
+	float: right;
+}
+
+#monkey {
+	height: 300px;
+	width: 300px;
+	float: left;
+	margin-top: -280px;
+	margin-left: 50px;
+}
+
+input {
+	height: 50px;
+	width: 160px;
+	text-align: center;
+	margin-bottom: 10px;
+	border: none;
+}
+
+
+button {
+	background-color: #1E4617;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 5px;
+	height: 45px;
+	width: 120px;
+	color: white;
+	border-radius: 12px;
+	border: none;
+}
+
+button:hover {
+	background-color: #DFDB51;
+	color: #574523;
+	font-weight: bolder;
+}
+
+#submit:hover {
+	background-color: #DFDB51;
+	color: #574523;
+	font-weight: bolder;
+}
+
+#reset {
+	margin-left: -350px;
+}
+
+#submit {
+	margin-bottom: 35px;
+	background-color: #574523;
+	border-radius: 12px;
+	font-size: 24px;
+	color: white;
+	height: 35px;
+}
