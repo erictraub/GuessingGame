@@ -55,7 +55,7 @@ function distance() {
 		return "and within 10 digits of the winning number.";
 	}
 	else if (diff <= 20) {
-		return "and withing 20 digits of the winning number.";
+		return "and within 20 digits of the winning number.";
 	}
 }
 
