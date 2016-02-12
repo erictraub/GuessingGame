@@ -2,27 +2,52 @@
 <html>
 
 	<head>
+
 		<title>Guessing Game</title>
 		<link rel="stylesheet" type="text/css" href="main.css">
+
 	</head>
+
 
 	<body>
 
 		<div ID="mainArea"/>
+
 			<h1>Guessing Game</h1>
-			<p>How many bananas does the monkey have?</p>
+
+			<p id ="question">How many bananas does the monkey have?</p>
+
 			<p ID="trys">You Have 5 Trys</p>
-			<input type="text" placeholder="Enter a number 1 - 100"/>
+
+			<p id="notification">Hide</p>
+
+			<input type="text" ID="playersInput" placeholder="Enter a number 1 - 100"/>
+			
 			<br>
-			<button ID="submit"><strong>Submit</strong></button>
+
+			<button ID="submitButton" onclick="playersGuessSubmission()"><strong>Submit</strong></button>
+
 			<br>
-			<button ID="reset">Reset</button>
-			<button>Hint</button>
+
+			<button ID="resetButton" onclick="playAgain()">Reset</button>
+		
+			<button id="hintButton" onclick="provideHint()">Hint</button>
 
 			<img ID="banana" src="http://www.clipartbest.com/cliparts/di6/K7o/di6K7o9i9.png"/>
+			
 			<img ID="monkey" src="http://cartoon-monkeys.clipartonline.net/_/rsrc/1396350269544/funny-baby-monkeys/cartoon_monkey_image_0004.png?height=400&width=400"/>
+
+			<div id="hintDiv">
+				<p id="hintMessage">Hint Message</p>
+			</div>
+
+			<button id="playAgainButton" onclick="playAgain()">Play Again</button>
+
 		</div>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+	<script type="text/javascript" src="guessingGame.js"></script>
 
 	</body>
 

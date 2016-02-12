@@ -14,10 +14,10 @@ h1 {
 }
 
 p {
-	font-family: fantasy;
+	font-family: Comic Sans Ms, Sans Serif;
 	text-align: center;
 	color: white;
-	font-size: 24px;
+	font-size: 22px;
 }
 
 #trys {
@@ -25,8 +25,38 @@ p {
 	margin-top: -13px;
 }
 
+#notification {
+	display: none;
+	font-size: 20px;
+	margin-top: -13px;
+}
 
-div {
+#hintMessage {
+	font-family: Verdana;
+	font-size: 20px;
+}
+
+#hintDiv {
+	margin-top: 2px;
+	border: 5px solid #574523;
+	border-radius: 12px;
+	background-color: #8F7F55;
+	text-align: center;
+	margin-left: 610px;
+	margin-right: 200px;
+	margin-bottom: -20px;
+	display: none;
+}
+
+#question {
+	font-size: 24px;
+	color: #1E4617;
+	font-family:  Comic Sans Ms, Sans Serif;
+	font-weight: bold;
+}
+
+
+#mainArea {
 	text-align: center;
 	background-color: #79B08F;
 	padding-bottom: 40px;
@@ -76,21 +106,23 @@ button:hover {
 	font-weight: bolder;
 }
 
-#submit:hover {
-	background-color: #DFDB51;
-	color: #574523;
-	font-weight: bolder;
-}
 
-#reset {
+#resetButton {
 	margin-left: -350px;
 }
 
-#submit {
-	margin-bottom: 35px;
-	background-color: #574523;
-	border-radius: 12px;
+
+#playAgainButton {
 	font-size: 24px;
-	color: white;
-	height: 35px;
+	height: 60px;
+	width: 150px;
+	margin: auto;
+	clear: both;
+	display: none;
 }
+
+
+
+
+
+
